@@ -1,8 +1,7 @@
-```markdown
-## Overview
+# Overview
 
 <p align="center">
-  <img src="figures/ese_overview.png" width="95%">
+  <img src="figures/MS.png" width="95%">
 </p>
 
 Many forecasting tasks involve multiple interacting systems, such as currencies, regions, markets, or public-health units. Conventional forecasting methods usually predict each system separately, which can be repetitive, computationally costly, and may miss system-level interactions.
@@ -12,7 +11,7 @@ Equilibrium State Estimation (ESE) addresses this problem by treating all system
 ## What is ESE?
 
 <p align="center">
-  <img src="figures/ese_equilibrium.png" width="90%">
+  <img src="figures/Equilibrium.png" width="90%">
 </p>
 
 ESE is based on the idea that interacting systems can be represented by their proportional states within a larger ensemble. The current state describes the observed proportions of all systems, while the estimated equilibrium state provides a statistical reference under the current system attributes.
@@ -22,7 +21,7 @@ ESE does not solve a game-theoretic equilibrium. Instead, it estimates a statist
 ## ESE Mechanism
 
 <p align="center">
-  <img src="figures/ese_mechanism.png" width="90%">
+  <img src="figures/ESE.png" width="90%">
 </p>
 
 The ESE mechanism consists of three main steps:
@@ -32,8 +31,6 @@ The ESE mechanism consists of three main steps:
 3. Generate forecasts based on the deviation between the current state and the estimated equilibrium state.
 
 ESE can be used as a standalone forecasting method or combined with existing predictors. When combined with a base predictor, the base model forecasts the aggregate trend, while ESE allocates the aggregate forecast across individual systems.
-```
-
 
 
 # Data
@@ -68,7 +65,7 @@ The released data include three groups:
 
 The datasets include real-world information from financial and public-health domains. They are released for research purposes. Results produced using these datasets should not be interpreted as financial, medical, or policy advice.
 
-## Citation
+# Citation
 
 If you use the datasets, please cite:
 
