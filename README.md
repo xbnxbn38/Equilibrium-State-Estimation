@@ -4,6 +4,7 @@
   <img src="figures/MS.png" width="95%">
 </p>
 
+
 Many forecasting tasks involve multiple interacting systems, such as currencies, regions, markets, or public-health units. Conventional forecasting methods usually predict each system separately, which can be repetitive, computationally costly, and may miss system-level interactions.
 
 Equilibrium State Estimation (ESE) addresses this problem by treating all systems as an ensemble. Instead of forecasting each target independently, ESE estimates a statistical equilibrium state across systems and generates coordinated forecasts for all systems in a single run.
