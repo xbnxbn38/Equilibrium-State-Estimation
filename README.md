@@ -1,7 +1,7 @@
 # Overview
 
 <p align="center">
-  <img src="figures/MS.png" width="95%">
+  <img src="figures/MS1.png" width="95%">
 </p>
 
 
